@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography App</title>
+    <link href="/static/styles.css" rel="stylesheet">
+</head>
+<body class="p-6">
+    <div class="max-w-md mx-auto">
+        <h1 class="text-xl font-bold mb-4">Cryptography App</h1>
+        <div>
+            <textarea id="inputMessage" class="textarea textarea-bordered w-full mb-4" placeholder="Your message"></textarea>
+            <button id="encryptBtn" class="btn btn-primary w-full mb-2">Encrypt</button>
+            <button id="decryptBtn" class="btn btn-secondary w-full">Decrypt</button>
+            <textarea id="outputMessage" class="textarea textarea-bordered w-full mt-4" placeholder="Result" readonly></textarea>
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
